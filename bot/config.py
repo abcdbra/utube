@@ -10,9 +10,9 @@ class Config:
 
     API_HASH = os.environ.get("API_HASH")
 
-    CLIENT_ID = os.environ.get("CLIENT_ID")
+    G_PHOTOS_CLIENT_ID = os.environ.get("CLIENT_ID")
 
-    CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+    G_PHOTOS_CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
 
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
     
